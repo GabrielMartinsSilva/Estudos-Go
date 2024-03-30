@@ -5,5 +5,10 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello world !")
+	x := 16
+	y := "strings"
+	z := true
+
+	_, erros := fmt.Println(x, y, z)
+	fmt.Println(erros)
 }
